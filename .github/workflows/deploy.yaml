@@ -42,4 +42,3 @@ jobs:
         
       - name: Run surge
         run: surge ./build  boot001.surge.sh --token ${{ secrets.Surge_Token }}
-.
